@@ -1,0 +1,38 @@
+{
+  "name": "catch_mind_if_you_can",
+  "version": "1.0.0",
+  "description": "Realtime Drawing Game built with Socket IO, Gulp and Node",
+  "main": "index.js",
+  "scripts": {
+    "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
+    "dev:assets": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/C4stleB/CloneCoding_CatchMindIfYouCan.git"
+  },
+  "author": "Chung Jeon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/C4stleB/CloneCoding_CatchMindIfYouCan/issues"
+  },
+  "homepage": "https://github.com/C4stleB/CloneCoding_CatchMindIfYouCan#readme",
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.10.4",
+    "babelify": "^10.0.0",
+    "del": "^5.1.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-csso": "^4.0.1",
+    "gulp-sass": "^4.1.0",
+    "morgan": "^1.10.0",
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4",
+    "pug": "^3.0.0",
+    "socket.io": "^2.3.0"
+  }
+}
