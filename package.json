@@ -1,17 +1,11 @@
 {
   "name": "catch_mind_if_you_can",
   "version": "1.0.0",
-  "engines": {
-    "node": "12.x"
-  },
   "description": "Realtime Drawing Game built with Socket IO, Gulp and Node",
-  "main": "index.js",
+  "main": "src/server.js",
   "scripts": {
     "dev:server": "nodemon --exec babel-node src/server --ignore assets/ --ignore src/static",
-    "dev:assets": "gulp",
-    "start": "node src/server.js",
-    "build": "gulp build",
-    "prestart": "npm run build"
+    "dev:assets": "gulp"
   },
   "repository": {
     "type": "git",
