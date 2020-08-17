@@ -1,9 +1,9 @@
 const path = require("path");
-import express from "express";
-import socketIO from "socket.io";
-import logger from "morgan";
-import socketController from "./socketController";
-import events from "./events";
+const express = require("express");
+const socketIO = require("socket.io");
+const logger = require("morgan");
+const socketController = require("./socketController");
+const events = require("./events");
 
 const PORT = 4000;
 const app = express();
